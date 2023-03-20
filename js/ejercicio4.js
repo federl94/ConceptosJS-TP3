@@ -2,11 +2,12 @@
 
 let numero = parseInt(prompt('Ingrese un número'))
 function parImpar (numero){
-    return numero%2==0
+    if (numero%2==0) {
+        document.write('El número ingresado es par')
+        return numero%2==0
+    }
+    else {
+        document.write('El número ingresado es impar')
+    }
 }
-if (numero%2==0) {
-    document.write('El número ingresado es par')
-}
-else {
-    document.write('El número ingresado es impar')
-}
+parImpar(numero);
