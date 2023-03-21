@@ -14,14 +14,3 @@ function tablas(num) {
         document.write(`- ${num}*10=${num*10}<br>`)    
     }
 tablas(num)
-
-/*let uno = num *1
-let dos = num *2
-let tres = num *3
-let cuatro = num *4
-let cinco = num *5
-let seis = num *6
-let siete = num *7
-let ocho = num *8
-let nueve = num *9
-let diez = num *10*/
